@@ -1,0 +1,12 @@
+.mysize{
+    height: 250px;
+}
+.mysize_item {
+    width: 300px;
+    height: 300px;
+
+}
+
+.mymeasure {
+  max-width: 20em;
+}

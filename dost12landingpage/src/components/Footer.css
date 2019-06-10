@@ -1,0 +1,58 @@
+.bg-near-black {
+    background-color: #111;
+}
+
+.hover-gold:hover {
+    color: #ffb700;
+}
+
+.hover-gold:focus {
+    color: #ffb700;
+}
+
+.hover-light-purple:hover {
+    color: #a463f2;
+}
+
+.hover-light-purple:focus {
+    color: #a463f2;
+}
+
+.hover-green:hover {
+    color: #19a974;
+}
+
+.hover-green:focus {
+    color: #19a974;
+}
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ph4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.mr4 {
+    margin-right: 2rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 30em) {
+    .mr5-ns {
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .pv6-l {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
