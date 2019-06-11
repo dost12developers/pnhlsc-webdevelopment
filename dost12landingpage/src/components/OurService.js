@@ -13,7 +13,7 @@ const OurService = ({onRouteChange}) => {
             <nav className='dt w-100 mw8 center'> 
                 <div className='dtc w2 v-mid pa3'>
                 <a href='/' className='dib w2 h2 pa1 b--white-90 grow-large border-box'>
-                    <img  className='br-100 h3 w3 dib' alt="" src="http://halalscience.ph/static/img/nav/logo2.png" />
+                    <img  className='br-100 h3 w3 dib' alt="" src="/static/img/nav/logo2.png" />
                 </a>
                 </div>
                 <div className='dtc v-mid tr pa3'>
@@ -48,7 +48,7 @@ const OurService = ({onRouteChange}) => {
             </p>
             </div>
             <div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns tc">
-                <img src="http://halalscience.ph/static/img/service/halal-assessment.jpg" alt="" />
+                <img src="/static/img/service/halal-assessment.jpg" alt="" />
             </div> 
             </div>
         </article>
@@ -62,7 +62,7 @@ const OurService = ({onRouteChange}) => {
             </p>
             </div>
             <div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns tc">
-                <img src="http://halalscience.ph/static/img/service/service_lab_small.jpg" alt="" />
+                <img src="/static/img/service/service_lab_small.jpg" alt="" />
             </div> 
             </div>
         </article>
@@ -76,7 +76,7 @@ const OurService = ({onRouteChange}) => {
             </p>
             </div>
             <div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns tc">
-                <img src="http://halalscience.ph/static/img/service/service_halal_dev.jpg" alt="" />
+                <img src="/static/img/service/service_halal_dev.jpg" alt="" />
             </div> 
             </div>
         </article>

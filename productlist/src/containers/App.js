@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:8080/api/product/all')
+    fetch('http://product.halalscience.ph//api/product/all')
       .then(response=> response.json())
       .then(users => {this.setState({ products: users})});
   }

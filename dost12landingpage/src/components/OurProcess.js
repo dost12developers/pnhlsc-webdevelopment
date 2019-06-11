@@ -13,7 +13,7 @@ const OurProcess = ({onRouteChange}) => {
         <nav className='dt w-100 mw8 center'> 
                 <div className='dtc w2 v-mid pa3'>
                 <a href='/' className='dib w2 h2 pa1 b--white-90 grow-large border-box'>
-                    <img  className='br-100 h3 w3 dib' alt="" src="http://halalscience.ph/static/img/nav/logo2.png" />
+                    <img  className='br-100 h3 w3 dib' alt="" src="/static/img/nav/logo2.png" />
                 </a>
                 </div>
                 <div className='dtc v-mid tr pa3'>
@@ -29,7 +29,7 @@ const OurProcess = ({onRouteChange}) => {
 
         <div className="f2 tc">Our Process</div>
         <div className='tc'>
-         <img className="fl w-80" alt="" src="http://halalscience.ph/static/img/service/halalprocess.jpg"/>
+         <img className="fl w-80" alt="" src="/static/img/service/halalprocess.jpg"/>
         </div>
         <div className="flex items-center justify-center pa4 bg-lightest-blue navy ">
            <div className="lh-title ml3 f3">Start The Certification Process Today or Inquire for more Information!</div>
