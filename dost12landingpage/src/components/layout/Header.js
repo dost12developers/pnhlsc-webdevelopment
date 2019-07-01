@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 function Nav() {
   return (
     <header className="sans-serif">
@@ -7,48 +8,44 @@ function Nav() {
         <div className="bg-black-80">
           <nav className="dt w-100 mw8 center">
             <div className="dtc w2 v-mid pa3">
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="dib w2 h2 pa1 b--white-90 grow-large border-box"
               >
-                <img
-                  className="br-100 h3 w3 dib"
-                  alt=""
-                  src="/static/img/nav/logo2.png"
-                />
-              </a>
+                <img className="br-100 h3 w3 dib" alt="" src="/favicon.png" />
+              </Link>
             </div>
             <div className="dtc v-mid tr pa3">
-              <a
+              <Link
                 class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
-                href="/"
+                to="/"
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
-                href="/lab"
+                to="/lab"
               >
                 Our Laboratory
-              </a>
-              <a
+              </Link>
+              <Link
                 class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
-                href="/process"
+                to="/process"
               >
                 Halal Lab Certifiation Process
-              </a>
-              <a
+              </Link>
+              <Link
                 class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
-                href="/about"
+                to="/about"
               >
                 About Us
-              </a>
-              <a
+              </Link>
+              <Link
                 class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
-                href="/contact"
+                to="/contact"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
