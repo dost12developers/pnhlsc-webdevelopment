@@ -1,69 +1,28 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-
-// import OurLab from './components/OurLab';
-// import OurProcess from './components/OurProcess';
-// import AboutUs from './components/AboutUs';
-// import Contact from './components/Contact';
-import OurService from './components/OurService';
+import OurService from "./components/OurService";
+import OurLab from "./components/OurLab";
+import OurProcess from "./components/OurProcess";
+import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
 
 class App extends Component {
-
-  constructor(){
-    super();
-    this.state = {
-      route:'home',
-      component : ''
-
-    }
-  }
-  onRouteChange = (route) => {
-   // this.setState({route:route})
-   if( route === 'home'){
-     this.setState({route :route});
-   }else if(route === 'lab'){
-      import('./components/OurLab').then( (OurLab) => {
-        this.setState({route : route, component: OurLab.default})
-      })
-  }else if(route === 'halalprocess'){
-    import('./components/OurProcess').then( (OurProcess) => {
-      this.setState({route : route, component: OurProcess.default})
-    })
-  }else if(route === 'about'){
-    import('./components/AboutUs').then( (AboutUs) => {
-      this.setState({route : route, component: AboutUs.default})
-    })
-  }else if(route === 'contact'){
-    import('./components/Contact').then( (Contact) => {
-      this.setState({route : route, component: Contact.default})
-    })
-  }
-
-  }
-  render(){
-    
-        // if(this.state.route === 'home'){
-        //   return <OurService onRouteChange={this.onRouteChange}/>
-        // }else if (this.state.route === 'lab'){
-        //     return <OurLab onRouteChange={this.onRouteChange}/>
-        // }
-        // else if (this.state.route === 'halalprocess'){
-        //   return <OurProcess onRouteChange={this.onRouteChange}/>
-        // }
-        // else if (this.state.route === 'about'){
-        //     return <AboutUs onRouteChange={this.onRouteChange}/>
-        // }else if (this.state.route === 'contact'){
-        //   return  <Contact onRouteChange={this.onRouteChange}/>
-        // }
-
-      if(this.state.route === 'home'){
-           return <OurService onRouteChange={this.onRouteChange}/>
-       }else{
-           return <this.state.component onRouteChange={this.onRouteChange} />
-       }
-
-      
+  render() {
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={OurService} />
+            <Route exact path="/lab" component={OurLab} />
+            <Route exact path="/process" component={OurProcess} />
+            <Route exact path="/about" component={AboutUs} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </div>
+      </Router>
+    );
   }
 }
 
