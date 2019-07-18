@@ -7,21 +7,31 @@ const OurLab = () => {
     <div>
       <Header />
       <main className="pa3 pa5-ns">
-        <h2 className="tc">Our Laboratory Testing</h2>
+        <h2 className="tc">Our Laboratory Testing Services</h2>
+        <div className="tc ma2">
+          <div className="f2">Halal Analysis</div>
+          <div className="f4">
+            We are committed to provide latest technologies and reliable testing
+            solution with improved efficiency in assessment of Halal food
+            integrity.
+          </div>
+        </div>
+
         <div className="tc fl w-100">
-          <div className="f3">Halal Analysis</div>
           <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
             <img className="mysize_item" src="/images/lab/1.jpg" alt="" />
             <h4>Porcine DNA Detection</h4>
             <p className="justify-content">
-              We are committed to provide latest technologies and reliable
-              testing solution with improved efficiency in assessment of Halal
-              food integrity. We provide Real Time PCR and Conventional PCR
+              We provide Real Time PCR and Conventional PCR
             </p>
             <p className="">
-              Processing Days takes: <br />
-              Real Time PCR- 14 days <br />
+              Turn-around Time: <br />
+              Real Time PCR- 7 days <br />
               Conventional PCR- 14 days
+              <br />
+              <br />
+              <br />
+              <br />
             </p>
           </div>
           <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
@@ -32,9 +42,9 @@ const OurLab = () => {
               be added to products as synthetic ethanol. We use GC method.
             </p>
             <p className="">
-              Processing Days takes: <br />
-              Real Time PCR- 14 days <br />
-              Conventional PCR- 14 days
+              7 working days
+              <br />
+              <br />
               <br />
               <br />
               <br />
@@ -48,22 +58,7 @@ const OurLab = () => {
               authenticity of animal fats. In this method we use GCMS.
             </p>
             <p className="">
-              Processing Days takes: 14 days
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-            </p>
-          </div>
-          <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
-            <img className="mysize_item" src="/images/lab/4.jpg" alt="" />
-            <h4>Thayyiban Analysis</h4>
-            <p className="justify-content">
-              A Wholesome Analysis that is forsafety, cleanliness, nutritious,
-              quality, authentic process.
-              <br />
-              <br />
+              14 days
               <br />
               <br />
               <br />
@@ -73,7 +68,11 @@ const OurLab = () => {
           </div>
         </div>
         <div className="tc fl w-100">
-          <div className="f3">Thayyiban Analysis</div>
+          <div className="f2">Thayyiban Analysis</div>
+          <div className="f4">
+            A Wholesome Analysis that is forsafety, cleanliness, nutritious,
+            quality, authentic process.
+          </div>
           <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
             <img className="mysize_item" src="/images/lab/5.jpg" alt="" />
             <h4>Microbiological Analysis</h4>
@@ -90,7 +89,7 @@ const OurLab = () => {
           </div>
           <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
             <img className="mysize_item" src="/images/lab/6.jpg" alt="" />
-            <h4>Physiochemical Analysis</h4>
+            <h4>Physico-chemical Analysis</h4>
             <p className="justify-content">
               Chemical testing Analysis is vital for regulatory compliance and
               to understand the quality and composition of chemical substances
@@ -108,7 +107,7 @@ const OurLab = () => {
           </div>
           <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-3 fl w-25 mymeasure">
             <img className="mysize_item" src="/images/lab/7.jpg" alt="" />
-            <h4>Nutrition Labelling Analysis</h4>
+            <h4>Nutrition facts Labeling</h4>
             <p className="justify-content">
               The analysis of value and the nutritional content in foods and
               food products, will provides information for nutrition labeling on

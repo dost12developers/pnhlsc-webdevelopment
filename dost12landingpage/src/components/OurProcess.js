@@ -25,7 +25,7 @@ const OurProcess = ({ onRouteChange }) => {
             className="link dib grow-large border-box f3"
             href="http://email.halalscience.ph/"
           >
-            <button className=" f6 tc db w-100 pv3 bg-animate bg-blue hover-bg-dark-blue white br2">
+            <button className=" f3 tc db w-100 pv3 bg-animate bg-blue hover-bg-dark-blue white br2">
               Send Us
             </button>
           </a>

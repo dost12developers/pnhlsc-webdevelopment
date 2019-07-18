@@ -248,13 +248,13 @@
   transform: scale(0.95);
 }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 15em) {
   .dib-ns {
     display: inline-block;
   }
 }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 15em) and (max-width: 60em) {
   .pb6-m {
     padding-bottom: 8rem;
   }
